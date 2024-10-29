@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <h1 class="portfolio-title">My Portfolio</h1>
+    <header class="navbar">
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm Youssef Selmi, a 19-year-old full-stack development student with a passion for bodybuilding.</p>
+        <p>I want to improve in both my fitness journey as an intermediate bodybuilder and my tech skills.</p>
+        <p>In my free time, I enjoy playing chess and watching series and anime.</p>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work">
+        <h2>Work</h2>
+        <ul>
+            <li>Project 1: Blog Platform</li>
+            <li>Project 2: E-Commerce Website</li>
+            <li>Project 3: Social Media Clone</li>
+        </ul>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <table>
+            <tr>
+                <th>Experiences</th>
+                <th>Duration</th>
+            </tr>
+            <tr>
+                <td>Web Development Intern</td>
+                <td>5 years</td>
+            </tr>
+            <tr>
+                <td>Freelance Full-Stack Developer</td>
+                <td>7 years</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name" class="waa">Name:</label>
+            <input class="inp" type="text" id="name" name="name" required><br>
+            <label for="email" class="waa">Email:</label>
+            <input class="inp" type="email" id="email" name="email" required><br>
+            <label for="message" class="waa">Message:</label><br>
+            <textarea class="inp" id="message" name="message" rows="5" required></textarea><br>
+            <button type="submit" class="boom">Submit</button>
+        </form>
+    </section>
+
+    <!-- Video and Audio -->
+    <section>
+        <h2>Media</h2>
+        <video width="400" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Please Check the video extension.
+        </video>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+            Please Check the audio extension.
+        </audio>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Youssef Selmi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
